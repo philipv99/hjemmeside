@@ -1,0 +1,175 @@
+
+body::before{
+    display:block;
+    content:'';
+    height: 5vh;
+}
+
+:root{
+    --nav-bar:black;
+    --back:rgb(26, 26, 26);
+    --prime:#eb8553;
+    --prime-hover:#cc6938;
+}
+
+#nav{
+    background-color:var(--nav-bar);
+}
+
+/* #ig{
+    background-color: rgb(160, 160, 186);
+} */
+
+#dark-bg,#hobby{
+    background-color:var(--back);
+}
+
+#pirmetext{
+    color:var(--prime);
+}
+
+#primelink,#merebut,#kontakt{
+    background-color:var(--prime);
+    border-color:var(--prime) ;
+}
+#primelink,#merebut:hover{
+    background-color:var(--prime-hover);
+    color:white;
+}
+
+
+#notDonePage{
+    height: 95vh;
+}
+
+#multiCollapseExample1{
+    box-shadow: inset 0 8px 8px -5px #20202019;
+}
+
+#programIconText{
+    font-size:0.8rem ;
+}
+#programmer{
+    background-image: url(./img/20221011121311_IMG_3814-01.jpeg);
+    background-position: 25% 50%;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#programmer-container{
+    /* backdrop-filter: blur(40px); */
+    transition: ease-in-out 0.3s;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#programmer-container:hover{
+    background-color: rgba(0, 0, 0, 0.453);
+}
+
+#medieBarMail{
+    background-color:rgb(249, 64, 64);
+    animation: mail 5s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite ;
+}
+#medieBarFace{
+    background-color:rgb(38, 116, 226);
+    animation: face 5s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite ;
+}
+#medieBarLink{
+    background-color:rgb(42, 77, 204);
+    animation: link 5s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite ;
+}
+#medieBarinsta{
+    /* background-color:rgb(207, 59, 210); */
+    animation: instaback 15s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite ;
+    background: linear-gradient( 0.5 turn, #8144eb,#eda933, #e53a65);
+}
+@keyframes mail{
+    0%{
+        background:rgb(249, 64, 64);
+    }
+    50%{
+        background: rgb(205, 49, 49);
+    }
+    100%{
+        background:rgb(249, 64, 64);
+    }
+}
+@keyframes face{
+    0%{
+        background:rgb(38, 116, 226);
+    }
+    50%{
+        background: rgb(80, 144, 234);
+    }
+    100%{
+        background:rgb(38, 116, 226);
+    }
+}
+@keyframes link{
+    0%{
+        background:rgb(52, 89, 224);
+    }
+    50%{
+        background: rgb(51, 42, 226);
+    }
+    100%{
+        background:rgb(52, 89, 224);
+    }
+}
+
+@keyframes instaback{
+    0%{
+        background:#7a33f5;
+    }
+    25%{
+        background: #1bcd80;
+    }
+    50%{
+        background: #eda933;
+    }
+    75%{
+        background: #ec1351;
+    }
+    100%{
+        background:#7a33f5;
+    }
+}
+
+#kontakt a:hover{
+    outline:1px solid white;
+}
+
+section .project-img{
+    background-image: url(/Project-img/arisa-chattasa-0LaBRkmH4fM-unsplash.jpg);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    --number: 2;
+}
+
+section .project-img:nth-of-type(4){
+    background-image: url(/Project-img/Solar-design-muck-up.png);
+    background-position: 50% 40%;
+}
+
+section .project-img:nth-of-type(5){
+    background-image: url(./img/jakob-owens-fkaZiACUb5w-unsplash.jpg);
+    background-position: 50% 50%;
+}
+
+.project-shadow{
+    filter: drop-shadow(0px 10px 7px rgba(0, 0, 0, 0.3));
+    box-shadow: inset 0px 0px 35px 10px rgba(255, 255, 255, 0.7);
+}
+
+.max-width-50{
+    max-width: 1300px;
+}
