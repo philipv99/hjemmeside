@@ -147,21 +147,26 @@ body::before{
     outline:1px solid white;
 }
 
-section .project-img{
-    background-image: url(/Project-img/arisa-chattasa-0LaBRkmH4fM-unsplash.jpg);
-    background-position: 100% 100%;
+.project-img{
+    background-image: url(./Project-img/sigmund-4UGmm3WRUoQ-unsplash.jpg);
+    background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size:cover;
     --number: 2;
 }
 
-section .project-img:nth-of-type(4){
-    background-image: url(/Project-img/Solar-design-muck-up.png);
-    background-position: 50% 40%;
+.project-img:nth-of-type(4){
+    background-image: url(./Project-img/papaioannou-kostas-tysecUm5HJA-unsplash.jpg);
+    background-position: 50% 70%;
 }
 
 section .project-img:nth-of-type(5){
-    background-image: url(./img/jakob-owens-fkaZiACUb5w-unsplash.jpg);
+    background-image: url(./Project-img/zan-X_JsI_9Hl7o-unsplash.jpg);
+    background-position: 50% 50%;
+}
+
+section .project-img:nth-of-type(6){
+    background-image: url(./Project-img/Solar-design-muck-up.png);
     background-position: 50% 50%;
 }
 
