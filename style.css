@@ -170,6 +170,11 @@ section .project-img:nth-of-type(6){
     background-position: 50% 50%;
 }
 
+section .project-img:nth-of-type(7){
+    background-image: url(./Project-img/markus-winkler-afW1hht0NSs-unsplash.jpg);
+    background-position: 50% 50%;
+}
+
 .project-shadow{
     filter: drop-shadow(0px 10px 7px rgba(0, 0, 0, 0.3));
     box-shadow: inset 0px 0px 35px 10px rgba(255, 255, 255, 0.7);
