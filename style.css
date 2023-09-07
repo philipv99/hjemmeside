@@ -148,7 +148,7 @@ body::before{
 }
 
 .project-img{
-    background-image: url(./Project-img/sigmund-4UGmm3WRUoQ-unsplash.jpg);
+    background-image: url(./Project-img/sigmund-4UGmm3WRUoQ-unsplash-scale-m.jpg);
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size:cover;
@@ -156,12 +156,12 @@ body::before{
 }
 
 .project-img:nth-of-type(4){
-    background-image: url(./Project-img/papaioannou-kostas-tysecUm5HJA-unsplash.jpg);
+    background-image: url(./Project-img/papaioannou-kostas-tysecUm5HJA-unsplash-scale-m.jpg);
     background-position: 50% 70%;
 }
 
 section .project-img:nth-of-type(5){
-    background-image: url(./Project-img/zan-X_JsI_9Hl7o-unsplash.jpg);
+    background-image: url(./Project-img/zan-X_JsI_9Hl7o-unsplash-scale-m.jpg);
     background-position: 50% 50%;
 }
 
@@ -171,7 +171,7 @@ section .project-img:nth-of-type(6){
 }
 
 section .project-img:nth-of-type(7){
-    background-image: url(./Project-img/markus-winkler-afW1hht0NSs-unsplash.jpg);
+    background-image: url(./Project-img/markus-winkler-afW1hht0NSs-unsplash-scale-m.jpg);
     background-position: 50% 50%;
 }
 
